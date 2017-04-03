@@ -1,0 +1,99 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 300px;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 300px;
+}
+
+@media (min-width: 1024px) {
+    .container {
+        width: 960px;
+    }
+}
+
+header {
+    padding-top: 20px;
+}
+
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.col-xs-15 {
+    width: 100%;
+    float: left;
+}
+
+@media (min-width: 768px) {
+    .col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+#content > .container > .row {
+    display: flex;
+}
+
+#content #left {
+    position: relative;
+}
+
+#content #left #block7 {
+    position: absolute;
+    bottom: 0;
+}
+
+#content #block6 {
+    padding-top: 10px;
+}
+
+#content #block6 > div {
+    padding-bottom: 20px;
+}
+
+ul.list-group {
+    padding-left: 15px;
+}
+
+ul#punkt {
+    list-style-type: none;
+}
+
+ul#punkt > div {
+    padding-left: 0;
+}
+
+hr {
+    border-color: #999;
+}
